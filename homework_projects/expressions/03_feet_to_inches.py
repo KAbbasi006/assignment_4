@@ -5,7 +5,7 @@ inches_in_foot : int = 12 # fixed value
 def main():
     while True:
         try:
-            feet:float = input("Enter number of feet or type 'exit' to quit: ")
+            feet = input("Enter number of feet or type 'exit' to quit: ")
             if feet.lower() == "exit":
                 print("--------------- Exiting the program ---------------\n")
                 break
